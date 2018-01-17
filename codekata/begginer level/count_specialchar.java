@@ -1,3 +1,5 @@
+
+
 import java.io.*;
 import java.util.*;
 class count_specialchar{
@@ -9,10 +11,16 @@ class count_specialchar{
 int l=s.length();
 for(i=0;i<l;i++)
 {
-	 if(s.charAt(i)>='0'&&s.charAt(i)<='9')
+	if(s.charAt(i)>='A'&&s.charAt(i)<='Z'||s.charAt(i)>='a'&&s.charAt(i)<='z')
+	{
+	    continue;
+	}
+	else
 	{
 	    count++;
 	}
+	
+    
 }
 	
 	System.out.print(count);
