@@ -26,10 +26,16 @@ class unique{
            }
        }
    }
-  
+  if(t>0)
+  {
    for(i=0;i<t;i++)
    {
-   System.out.print(b[i]+" ");  }
+   System.out.print(b[i]+" "); 
+   }
+   }
+   else{
+      System.out.print("unique"); 
+   }
   }  
  }  
  
