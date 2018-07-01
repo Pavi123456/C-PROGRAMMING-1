@@ -7,7 +7,7 @@ class smallnum{
 	String x="";
 	//long n=sc.nextInt();
 	String s=sc.next();
-//	
+	
 	k=sc.nextInt();
 	int l=s.length();
 	
