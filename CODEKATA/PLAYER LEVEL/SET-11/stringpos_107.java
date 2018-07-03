@@ -13,7 +13,7 @@ class stringpos{
 	    {
 	        if(w[i].equals(s1))
 	        {
-	            System.out.print(i);
+	            System.out.print(i+1);
 	            break;
 	        }
 	    }
